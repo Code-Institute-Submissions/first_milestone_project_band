@@ -33,7 +33,7 @@ body {
 }
 
 .button-color-red {
-    background-color: #fa0402;
+    background-color: #fa040266;
 }
 
 /* Colors */
@@ -75,7 +75,7 @@ nav {
 }
 
 .nav-color {
-    background-color: #e488f1;
+    background-color: #fff;
 }
 
 .nav_items {
@@ -201,8 +201,8 @@ nav {
     margin-top: 0;
     margin-bottom: 0;
     display: none;
-    background-color: #e488f1;
-    transform: translateY(-14px);
+    background-color: #fff;
+    transform: translateY(-7px);
 }
 
 /*Burger End*/
@@ -235,9 +235,10 @@ nav {
     color: #f5051e;
     text-align: center;
     text-transform: uppercase;
+    font-family: 'Coiny', cursive;
 }
 
-/*.filler_top{
+.filler_top{
     position:absolute;
     display:block;
     top:50px;
@@ -269,9 +270,9 @@ nav {
     bottom:0;
     background-color:#f5051e;
     width:100vw;
-    height:1vh;
+    height:100px;
     
-}*/
+}
 
 .disable_underscore:hover {
     text-decoration: none;
