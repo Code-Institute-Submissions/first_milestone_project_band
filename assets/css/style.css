@@ -10,6 +10,45 @@ body {
     width: 100%;
 }
 
+.center_text {
+    text-align: center;
+}
+
+/* buttons */
+
+.btn--size-lg {
+    width: 150px;
+    height: 100px;
+    margin: 20px auto 20px auto;
+    border-style:none;
+    border-radius: 5px;
+}
+
+.btn--size-rg {
+    width: 100px;
+    height: 50px;
+    margin: 0 auto 20px auto;
+    border-style:none;
+    border-radius: 5px;
+}
+
+.button-color-red {
+    background-color: #fa0402;
+}
+
+/* Colors */
+
+.white_text {
+    color: white;
+}
+
+.white_text:hover {
+    color: white;
+}
+
+.text-black {
+    color: black;
+}
 
 /* Navbar*/
 
@@ -120,6 +159,7 @@ nav {
     text-transform: uppercase;
     font-family: 'Coiny', cursive;
 }
+
 .burger-li-last a {
     color: #f5051e;
     padding: 0.1em;
@@ -135,6 +175,7 @@ nav {
     text-decoration: none;
     cursor: pointer;
 }
+
 .burger-li-last a:hover {
     background-color: #ccc;
     border-radius: 5px;
@@ -168,6 +209,76 @@ nav {
 
 /* navbar end */
 
+/* Callout */
+
+.callout {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+#myVideo {
+    position: absolute;
+    display: flex;
+    object-fit: cover;
+    padding-top: 28px;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.callout_message {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    color: #f5051e;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*.filler_top{
+    position:absolute;
+    display:block;
+    top:50px;
+    background-color:#f5051e;
+    width:100vw;
+    height:5vh;
+}
+.filler_left{
+    position:absolute;
+    display:block;
+    left:0;
+    background-color:#f5051e;
+    width:10vw;
+    height:90vh;
+    
+}
+.filler_right{
+    position:absolute;
+    display:block;
+    right:0;
+    background-color:#f5051e;
+    width:10vw;
+    height:90vh;
+    
+}
+.filler_bottom{
+    position:absolute;
+    display:block;
+    bottom:0;
+    background-color:#f5051e;
+    width:100vw;
+    height:1vh;
+    
+}*/
+
+.disable_underscore:hover {
+    text-decoration: none;
+}
+
+/* Callout End */
+
 /* Media Queries */
 
 @media (min-width: 768px) {
@@ -177,5 +288,9 @@ nav {
     }
     .burger-box {
         display: none;
+    }
+
+    .callout_message {
+        width: auto;
     }
 }
