@@ -286,6 +286,12 @@ nav {
 
 /* Callout End */
 
+/* Modal */
+
+.modal{
+    top: 33%;
+}
+
 /* Media Queries */
 
 @media (min-width: 768px) {
