@@ -455,11 +455,11 @@ nav {
     overflow: scroll;
     align-items: center;
 }
-.albulm-photo{
-    height: 186px;
-    padding: 5px;
-    border-radius: 50%;
+
+.song h2 {
+    margin-bottom: 0;
 }
+
 .song-info {
     position: relative;
     top: 50px;
@@ -473,15 +473,15 @@ nav {
     text-align: center;
 }
 
-.song {
-    position: relative;
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
+.albulm-photo {
+    height: 200px;
+    padding: 5px;
+    border-radius: 10%;
 }
 
-.song h2 {
-    margin-bottom: 0;
+.song p audio {
+    padding-top: 20px;
+    width: 100%;
 }
 
 /*music end*/
