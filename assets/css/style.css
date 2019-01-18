@@ -517,13 +517,19 @@ nav {
 }
 
 .media-section {
+    margin: 70px auto 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    align-items: center;
+}
+.photo-section{
     margin: 0px auto 10px auto;
     display: flex;
     flex-wrap: wrap;
     overflow: scroll;
     align-items: center;
 }
-
 .media h2 {
     margin-bottom: 0;
 }
@@ -552,7 +558,7 @@ nav {
     border-radius: 10%;
 }
 
-.media p audio {
+.media p image {
     padding-top: 20px;
     width: 100%;
 }
@@ -686,4 +692,10 @@ nav {
     .band-info p {
         font-size: 1.2em;
     }
+}
+@media (min-width: 991px) and (max-width: 1350px) {
+    .albulm-photo {
+    width: 200px;
+    
+}
 }
