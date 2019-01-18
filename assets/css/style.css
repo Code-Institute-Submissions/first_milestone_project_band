@@ -6,7 +6,16 @@ body {
 
 /* Styles */
 
+.flex-container{
+    display:flex;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+}
 .column-100 {
+    position:relative;
     width: 100%;
 }
 
@@ -14,15 +23,8 @@ body {
     width: 25%;
 }
 
-.center_text {
-    text-align: center;
-}
-
-.lg-text{
-    font-size: 2.2em;
-}
-.coiny{
-    font-family: 'Coiny', cursive;
+.center{
+    justify-content:center;
 }
 /* buttons */
 
@@ -48,7 +50,18 @@ body {
     background-color: #fa040266;
 }
 
-/* Colors */
+/* Text and Colors */
+
+.center_text {
+    text-align: center;
+}
+
+.lg-text{
+    font-size: 2.2em;
+}
+.coiny{
+    font-family: 'Coiny', cursive;
+}
 
 .white_text {
     color: white;
@@ -60,6 +73,9 @@ body {
 
 .text-black {
     color: black;
+}
+.banner-text{
+    font-size:1.5em;
 }
 
 /* Navbar*/
@@ -226,7 +242,7 @@ nav {
 
 /* navbar end */
 
-/* Callout */
+/* Home Callout */
 
 .callout {
     display: flex;
@@ -295,7 +311,25 @@ nav {
     text-decoration: none;
 }
 
-/* Callout End */
+/* Home Callout End */
+
+/* Band Main */
+.main{
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+}
+.bg-image1 {
+    background: url(/assets/images-video-music/images/spiral_bg_red.jpg) center / cover no-repeat;
+}
+.band-header{
+    position: absolute;
+    top:60px;
+}
+/*BandMain End
 
 /*footer*/
 
@@ -361,6 +395,9 @@ nav {
     .callout_message {
         width: auto;
     }
+    .banner-text{
+    font-size:2em;
+}
 }
 
 @media (min-width: 991px) {
@@ -372,6 +409,8 @@ nav {
     .filler_right {
         display: block;
     }
-
+.banner-text{
+    font-size:3em;
+}
 
 }
