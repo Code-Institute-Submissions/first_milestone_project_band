@@ -119,10 +119,9 @@ nav {
     display: block;
     position: absolute;
     margin-right: 30px;
-    top: 0;
+    top: 10px;
     right: 0;
     height: 100%;
-    box-sizing: border-box;
 }
 
 .burger-shower {
@@ -318,6 +317,11 @@ nav {
 .social {
     font-size: 30px;
     color: #f5051e;
+}
+
+.social:hover {
+    color: #f5051ead;
+    text-decoration: none;
 }
 
 .copyright {
