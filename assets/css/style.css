@@ -325,6 +325,7 @@ nav {
 .social {
     font-size: 30px;
     color: #f5051e;
+    text-decoration: none;
 }
 
 .social:hover {
