@@ -5,7 +5,9 @@ body {
 }
 
 /* Styles */
-
+.flex{
+    display:flex;
+}
 .main-container {
     display: flex;
     position: absolute;
@@ -499,7 +501,11 @@ nav {
 /* Media */
 
 .media-section {
+    margin: 70px auto 10px auto;
+    display: flex;
+    flex-wrap: wrap;
     overflow: scroll;
+    align-items: center;
     width: inherit;
 }
 
@@ -516,13 +522,7 @@ nav {
     border-radius: 10px;
 }
 
-.media-section {
-    margin: 70px auto 10px auto;
-    display: flex;
-    flex-wrap: wrap;
-    overflow: scroll;
-    align-items: center;
-}
+
 .photo-section{
     margin: 0px auto 10px auto;
     display: flex;
@@ -564,6 +564,48 @@ nav {
 }
 
 /* Media End */
+
+/*Gigs*/
+
+.gig-section{
+    margin: 70px auto 10px auto;
+    flex-wrap: wrap;
+    overflow: scroll;
+    width: inherit;
+}
+.gig-tour-section{
+    display:flex;
+    width:90%;
+    margin:0 auto;
+}
+.gig-header{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+}
+
+.tour-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    height: auto;
+    justify-content: center;
+}
+.booking-info{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    height: auto;
+    justify-content: center;
+}
+
+.tour h2 {
+    margin-bottom: 0;
+}
+
+/*Gigs End*/
 
 /*footer*/
 
