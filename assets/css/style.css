@@ -34,18 +34,18 @@ body {
 }
 
 .col-25-desk {
-    position:relative;
+    position: relative;
     display: none;
 }
 
 .col-50-tablet {
-    position:relative;
+    position: relative;
     display: none;
 }
 
 .col-100-mobile {
     display: flex;
-    position:relative;
+    position: relative;
     width: 100%;
 }
 
@@ -432,6 +432,60 @@ nav {
 
 /*BandMain End
 
+/*Music*/
+
+.music-section {
+    width: inherit;
+}
+
+.music-header {
+    position: relative;
+    top: 70px;
+}
+
+.band-photo2 {
+    border-radius: 40%;
+    height: 300px;
+}
+
+.song-section {
+    margin: 100px auto 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    align-items: center;
+}
+.albulm-photo{
+    height: 186px;
+    padding: 5px;
+    border-radius: 50%;
+}
+.song-info {
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+    display: flex;
+    height: auto;
+    justify-content: center;
+}
+
+.song-info p {
+    text-align: center;
+}
+
+.song {
+    position: relative;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.song h2 {
+    margin-bottom: 0;
+}
+
+/*music end*/
+
 /*footer*/
 
 .footer_container {
@@ -510,7 +564,7 @@ nav {
 @media (min-width: 768px) {
     .col-50-tablet {
         width: 50%;
-        display:flex;
+        display: flex;
     }
     .nav_items {
         display: block;
@@ -556,4 +610,3 @@ nav {
         font-size: 1.2em;
     }
 }
-
