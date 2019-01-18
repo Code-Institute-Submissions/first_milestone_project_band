@@ -80,6 +80,9 @@ body {
 .center_text {
     text-align: center;
 }
+.justify-center{
+    justify-content:center;
+}
 
 .lg-text {
     font-size: 2.2em;
@@ -435,12 +438,14 @@ nav {
 /*Music*/
 
 .music-section {
+    overflow: scroll;
     width: inherit;
 }
 
 .music-header {
     position: relative;
     top: 70px;
+    padding-bottom: 50px;
 }
 
 .band-photo2 {
