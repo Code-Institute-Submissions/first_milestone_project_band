@@ -28,6 +28,10 @@ body {
     width: 80%;
 }
 
+.col-50 {
+    width: 50%;
+}
+
 .col-25 {
     width: 25%;
 
@@ -80,8 +84,9 @@ body {
 .center_text {
     text-align: center;
 }
-.justify-center{
-    justify-content:center;
+
+.justify-center {
+    justify-content: center;
 }
 
 .lg-text {
@@ -491,6 +496,69 @@ nav {
 
 /*music end*/
 
+/* Media */
+
+.media-section {
+    overflow: scroll;
+    width: inherit;
+}
+
+.media-header {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.band-video1 {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.media-section {
+    margin: 0px auto 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    align-items: center;
+}
+
+.media h2 {
+    margin-bottom: 0;
+}
+
+.media-info {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    top: 0;
+    margin: 0 auto;
+    height: auto;
+}
+
+.video {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.media-info p {
+    text-align: center;
+}
+
+.albulm-photo {
+    height: 200px;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+.media p audio {
+    padding-top: 20px;
+    width: 100%;
+}
+
+/* Media End */
+
 /*footer*/
 
 .footer_container {
@@ -563,6 +631,10 @@ nav {
     }
     .copyright {
         font-size: 1em;
+    }
+    .band-video1 {
+    height: 300px;
+    width: 400px;
     }
 }
 
