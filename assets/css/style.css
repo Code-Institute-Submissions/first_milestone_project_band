@@ -6,26 +6,32 @@ body {
 
 /* Styles */
 
-.flex-container{
-    display:flex;
-    position:absolute;
-    top:0;
-    left:0;
-    width:100vw;
-    height:100vh;
+.flex-container {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
 }
+
 .column-100 {
-    position:relative;
+    position: relative;
     width: 100%;
+}
+
+.col-80 {
+    width: 80%;
 }
 
 .col-25 {
     width: 25%;
 }
 
-.center{
-    justify-content:center;
+.center {
+    justify-content: center;
 }
+
 /* buttons */
 
 .btn--size-lg {
@@ -43,9 +49,11 @@ body {
     border-style: none;
     border-radius: 5px;
 }
-.button-color-red{
-    background-color:#f5051e;
+
+.button-color-red {
+    background-color: #f5051e;
 }
+
 .button-color-red-opaque {
     background-color: #fa040266;
 }
@@ -56,10 +64,11 @@ body {
     text-align: center;
 }
 
-.lg-text{
+.lg-text {
     font-size: 2.2em;
 }
-.coiny{
+
+.coiny {
     font-family: 'Coiny', cursive;
 }
 
@@ -74,8 +83,10 @@ body {
 .text-black {
     color: black;
 }
-.banner-text{
-    font-size:1.5em;
+
+.banner-text {
+    font-size: 1.5em;
+    margin: 5px auto 0 auto;
 }
 
 /* Navbar*/
@@ -163,7 +174,7 @@ nav {
 .hamburger {
     position: relative;
     display: block;
-    transform: translateY(2%);
+    transform: translateY(-15%);
     width: 50px;
     height: 50px;
     line-height: .1em;
@@ -314,21 +325,48 @@ nav {
 /* Home Callout End */
 
 /* Band Main */
-.main{
-    display:block;
-    position:absolute;
-    top:0;
-    left:0;
-    width:100vw;
-    height:100vh;
-}
+
 .bg-image1 {
     background: url(/assets/images-video-music/images/spiral_bg_red.jpg) center / cover no-repeat;
 }
-.band-header{
-    position: absolute;
-    top:60px;
+
+.band-section {
+    overflow: scroll;
+    display: flex;
+    position: relative;
+    width: 100%;
 }
+
+.band-header {
+    display: inline-flex;
+    position: absolute;
+    top: 70px;
+    align-items: center;
+}
+
+.band-info {
+    position: absolute;
+    top: 150px;
+    height: auto;
+}
+
+.band-info p {
+    text-align: center;
+}
+
+.band-photo1 {
+    float: right;
+    height: 186px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.band-section {
+    display: flex;
+}
+
+.member {}
+
 /*BandMain End
 
 /*footer*/
@@ -395,9 +433,13 @@ nav {
     .callout_message {
         width: auto;
     }
-    .banner-text{
-    font-size:2em;
-}
+    .banner-text {
+        font-size: 2em;
+    }
+    .band-header {
+        display: block;
+        align-items: center;
+    }
 }
 
 @media (min-width: 991px) {
@@ -409,8 +451,10 @@ nav {
     .filler_right {
         display: block;
     }
-.banner-text{
-    font-size:3em;
-}
-
+    .banner-text {
+        font-size: 3em;
+    }
+    .band-info p {
+        font-size: 1.2em;
+    }
 }
