@@ -6,18 +6,22 @@ body {
 
 /* Styles */
 
-.flex-container {
+.main-container {
     display: flex;
     position: absolute;
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 95%;
 }
 
 .column-100 {
     position: relative;
     width: 100%;
+}
+
+.col-90 {
+    width: 90%;
 }
 
 .col-80 {
@@ -26,10 +30,23 @@ body {
 
 .col-25 {
     width: 25%;
+
 }
 
-.center {
-    justify-content: center;
+.col-25-desk {
+    position:relative;
+    display: none;
+}
+
+.col-50-tablet {
+    position:relative;
+    display: none;
+}
+
+.col-100-mobile {
+    display: flex;
+    position:relative;
+    width: 100%;
 }
 
 /* buttons */
@@ -70,6 +87,10 @@ body {
 
 .coiny {
     font-family: 'Coiny', cursive;
+}
+
+.fugaz {
+    font-family: 'Fugaz One', cursive;
 }
 
 .white_text {
@@ -194,7 +215,7 @@ nav {
 .burger-li a {
     color: #f5051e;
     padding: 0.1em;
-    font-size: larger;
+    font-size: smaller;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Coiny', cursive;
@@ -203,7 +224,7 @@ nav {
 .burger-li-last a {
     color: #f5051e;
     padding: 0.1em;
-    font-size: larger;
+    font-size: smaller;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Coiny', cursive;
@@ -331,23 +352,24 @@ nav {
 }
 
 .band-section {
-    overflow: scroll;
-    display: flex;
+    display: inline;
     position: relative;
-    width: 100%;
-}
-
-.band-header {
-    display: inline-flex;
-    position: absolute;
-    top: 70px;
+    overflow: scroll;
     align-items: center;
 }
 
+.band-header {
+    position: relative;
+    top: 70px;
+}
+
 .band-info {
-    position: absolute;
-    top: 150px;
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+    display: flex;
     height: auto;
+    justify-content: center;
 }
 
 .band-info p {
@@ -356,30 +378,71 @@ nav {
 
 .band-photo1 {
     float: right;
+    height: 150px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.band-members {
+    margin: 0px auto;
+    padding-top: 40px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.member {
+    position: relative;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.member h2 {
+    margin-bottom: 0;
+}
+
+.member-photo-md {
+    float: left;
     height: 186px;
     padding: 5px;
     border-radius: 50%;
 }
 
-.band-section {
-    display: flex;
+.member-photo-pt {
+    float: right;
+    height: 186px;
+    padding: 5px;
+    border-radius: 50%;
 }
 
-.member {}
+.member-photo-mn {
+    float: left;
+    height: 186px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.member-photo-dj {
+    float: right;
+    height: 186px;
+    padding: 5px;
+    border-radius: 50%;
+}
 
 /*BandMain End
 
 /*footer*/
 
 .footer_container {
-    display: inline-flex;
+    display: flex;
     position: absolute;
     bottom: 0px;
     width: 100vw;
     background-color: #fff;
-    margin: 10px auto 0 auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
 
 }
 
@@ -387,6 +450,7 @@ nav {
     margin: 0 auto;
     text-align: center;
     font-family: 'Fugaz One', cursive;
+    font-size: smaller;
 }
 
 .social_links {
@@ -395,9 +459,9 @@ nav {
 }
 
 .social {
-    font-size: 30px;
     color: #f5051e;
     text-decoration: none;
+    font-size: smaller;
 }
 
 .social:hover {
@@ -409,6 +473,7 @@ nav {
     margin: 0 auto;
     text-align: center;
     font-family: 'Fugaz One', cursive;
+    font-size: smaller;
 }
 
 /*footer end*/
@@ -421,8 +486,32 @@ nav {
 
 /* Media Queries */
 
-@media (min-width: 767px) {
+@media (min-width: 375px) {
+    .burger-li a {
+        font-size: larger;
+    }
+    .burger-li-last a {
+        font-size: larger;
+    }
+}
 
+@media (min-width: 457px) {
+    .createdby {
+        font-size: 1em;
+    }
+    .social {
+        font-size: 30px;
+    }
+    .copyright {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-50-tablet {
+        width: 50%;
+        display:flex;
+    }
     .nav_items {
         display: block;
     }
@@ -440,10 +529,19 @@ nav {
         display: block;
         align-items: center;
     }
+    .member h2 {
+        margin-bottom: 0px;
+    }
+    .member p {
+        margin: 0;
+    }
 }
 
 @media (min-width: 991px) {
-
+    .col-25-desk {
+        width: 25%;
+        display: flex;
+    }
     .filler_left {
         display: block;
     }
@@ -458,3 +556,4 @@ nav {
         font-size: 1.2em;
     }
 }
+
