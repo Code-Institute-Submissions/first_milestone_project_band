@@ -771,8 +771,8 @@ br {
     bottom: 0px;
     width: 100vw;
     background-color: #fff;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     align-items: center;
 }
 
@@ -781,8 +781,8 @@ br {
     position: relative;
     width: 100%;
     background-color: #fff;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     align-items: center;
 }
 
@@ -960,6 +960,15 @@ br {
     .bookings-header p.coiny {
         font-size: 2em;
     }
+        .footer_container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 }
 
 @media (min-width: 1024px) {
