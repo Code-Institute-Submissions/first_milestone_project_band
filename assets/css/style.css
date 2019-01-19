@@ -13,6 +13,7 @@ body {
 .main-container {
     display: flex;
     position: absolute;
+    overflow:scroll;
     top: 0;
     left: 0;
     width: 100vw;
@@ -378,7 +379,6 @@ nav {
 .band-section {
     display: inline;
     position: relative;
-    overflow: scroll;
     align-items: center;
 }
 
@@ -410,6 +410,7 @@ nav {
 .band-members {
     margin: 0px auto;
     padding-top: 40px;
+    padding-bottom: 40px;
     position: relative;
     display: flex;
     flex-wrap: wrap;
