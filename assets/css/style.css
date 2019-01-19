@@ -603,6 +603,7 @@ nav {
 
 .tour h2 {
     margin-bottom: 0;
+    font-size: 1.2em;
 }
 
 /*Gigs End*/
@@ -714,6 +715,9 @@ nav {
     .member p {
         margin: 0;
     }
+    .tour h2 {
+    font-size: 1.5em;
+}
 }
 
 @media (min-width: 991px) {
@@ -734,6 +738,9 @@ nav {
     .band-info p {
         font-size: 1.2em;
     }
+    .tour h2 {
+    font-size: 2em;
+}
 }
 @media (min-width: 991px) and (max-width: 1350px) {
     .albulm-photo {
