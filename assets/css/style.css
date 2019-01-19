@@ -613,9 +613,11 @@ nav {
     justify-content: center;
 }
 
-
 .tour-header {
     width: 80%;
+}
+.tour-text {
+    font-weight: 600;
 }
 
 .tour-header p.coiny {
@@ -683,15 +685,19 @@ nav {
 
 .bookings-header {
     width: 80%;
+    margin: 0 auto;
 }
 
 .bookings-header p.coiny {
     margin-bottom: 0;
     font-size: 1.2em;
 }
-
+.bookings-text{
+    font-weight: 600;
+}
 .bookings {
     width: 80%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -864,6 +870,10 @@ nav {
     .tour-header p.coiny {
         font-size: 1.5em;
     }
+    .bookings {
+    transform: translateY(-85px);
+}
+
     .bookings-header p.coiny {
         font-size: 1.5em;
     }
@@ -896,6 +906,9 @@ nav {
     .tour-header p.coiny {
         font-size: 2em;
     }
+    .bookings {
+    transform: translateY(-130px);
+}
     .bookings-header p.coiny {
         font-size: 2em;
     }
@@ -908,6 +921,9 @@ nav {
     .table-text {
         font-size: 1.3em;
     }
+      .bookings {
+    transform: translateY(-175px);
+}
 }
 
 @media (min-width: 992px) and (max-width: 1350px) {
