@@ -11,6 +11,7 @@
 	<title>The Monkees-Band Website and Fan Page-Gig Page</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="../assets/css/style.css" type="text/css" />
 </head>
 
@@ -125,7 +126,7 @@
 						<div class="bookings-header">
 							<p class="coiny">Bookings</p>
 							<p class="bookings-text">The Monkees are available to hire for any even that you have planned, such as weddings and Xmas Parties.</p>
-							<image src="../assets/images-video-music/images/monkees.jpg" class="band-photo3"/>
+							<image src="../assets/images-video-music/images/monkees.jpg" class="band-photo3" />
 						</div>
 						<div class="bookings">
 							<div>
@@ -153,7 +154,7 @@
 								</div>
 							</div>
 							<div class="booking-button">
-								<button class="book-btn btn--size-lg button-color-white font-20"><a href="#BookingsModal" class="red_text coiny">BOOK NOW!</a></button>
+								<button class="book-btn btn--size-lg button-color-white font-20 red_text coiny" data-toggle="modal" data-target="#BookingsModal">BOOK NOW!</button>
 							</div>
 						</div>
 					</div>
@@ -182,29 +183,33 @@
 		</div>
 	</footer>
 	<!--/footer-->
- <!-- Modal -->
-    <div class="modal fade" id="BookingsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title center_text" id="myModalLabel">Sign Up for our Newsletter!</h4>
-                    <img src="../assets/images-video-music/images/Monkees_red.jpeg" alt="The Monkees Guitar Logo">
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" placeholder="Email">
-                        </div>
-                </div>
-                <div class="center_text">
-                    <button type="submit" class="button-color-red btn--size-lg lg-text coiny white_text">Submit</button>
-                </div>
-                </form>
-            </div>
-        </div>
-    </div>
+	<!-- Modal -->
+	<div class="modal fade" id="BookingsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title center_text" id="myModalLabel">Sign Up for our Newsletter!</h4>
+					<img src="../assets/images-video-music/images/Monkees_red.jpeg" alt="The Monkees Guitar Logo">
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="email">Email address</label>
+							<input type="email" class="form-control" id="email" placeholder="Email">
+						</div>
+				</div>
+				<div class="center_text">
+					<button type="submit" class="button-color-red btn--size-lg lg-text coiny white_text">Submit</button>
+				</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
