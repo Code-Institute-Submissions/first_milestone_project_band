@@ -587,6 +587,7 @@ nav {
     margin: 70px auto 10px auto;
     flex-wrap: wrap;
     width: inherit;
+    overflow: scroll;
 }
 
 .gig-tour-section {
@@ -612,13 +613,6 @@ nav {
     justify-content: center;
 }
 
-.booking-info {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    height: auto;
-    justify-content: center;
-}
 
 .tour-header {
     width: 80%;
@@ -635,17 +629,6 @@ nav {
     flex-direction: column;
 }
 
-.bookings-header p.coiny {
-    margin-bottom: 0;
-    font-size: 1.2em;
-}
-
-.bookings {
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
 
 .tour-dates {
     border-radius: 5px;
@@ -688,6 +671,61 @@ nav {
 .tour-btn a:hover {
     text-decoration: none;
     color: #fff;
+}
+
+.booking-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    height: auto;
+    justify-content: center;
+}
+
+.bookings-header {
+    width: 80%;
+}
+
+.bookings-header p.coiny {
+    margin-bottom: 0;
+    font-size: 1.2em;
+}
+
+.bookings {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wedding-quote {
+    margin:5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.xmas-quote {
+    margin:5px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.couple {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.picture-frame {
+    width: 100px;
+    height: 108px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.girl {
+    width: 100px;
+    border-radius: 50%;
 }
 
 /*Gigs End*/
@@ -787,7 +825,7 @@ nav {
 }
 
 @media (min-width: 550px) {
-        .table-header {
+    .table-header {
         font-size: 1.7em;
     }
     .table-text {
@@ -864,7 +902,7 @@ nav {
 }
 
 @media (min-width: 1024px) {
-        .table-header {
+    .table-header {
         font-size: 1.6em;
     }
     .table-text {
