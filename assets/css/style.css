@@ -54,6 +54,7 @@ body {
 .col-100-mobile {
     display: flex;
     position: relative;
+    justify-content: center;
     width: 100%;
 }
 
@@ -590,6 +591,7 @@ nav {
 
 .gig-tour-section {
     display: flex;
+    flex-wrap: wrap;
     width: 90%;
     margin: 0 auto;
 }
@@ -605,8 +607,8 @@ nav {
 .tour-info {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
     height: auto;
+    width: 80%;
     justify-content: center;
 }
 
@@ -618,24 +620,46 @@ nav {
     justify-content: center;
 }
 
-.tour h2 {
+.tour-header {
+    width: 80%;
+}
+
+.tour-header p.coiny {
     margin-bottom: 0;
     font-size: 1.2em;
 }
 
-.tour {}
+.tour {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bookings-header p.coiny {
+    margin-bottom: 0;
+    font-size: 1.2em;
+}
+
+.bookings {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
 .tour-dates {
-    border-radius:5px;
+    border-radius: 5px;
     margin: 0 auto;
 }
 
 .tour-dates {
     border-collapse: collapse;
-    width: 100%;
+    width: auto;
+    height: auto;
 }
 
-.tour-dates th, .tour-dates td {
+.tour-dates th,
+.tour-dates td {
     border: 1px solid #fff;
     padding: 8px;
 }
@@ -644,8 +668,12 @@ nav {
     background-color: #ffffff52;
 }
 
+.table-header {
+    font-size: 1em;
+}
+
 .table-text {
-    font-size: 1.5em;
+    font-size: 0.8em;
 }
 
 .tour-btn:hover {
@@ -725,6 +753,21 @@ nav {
     .burger-li-last a {
         font-size: larger;
     }
+    .table-header {
+        font-size: 1.2em;
+    }
+    .table-text {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 425px) {
+    .table-header {
+        font-size: 1.3em;
+    }
+    .table-text {
+        font-size: 1.1em;
+    }
 }
 
 @media (min-width: 457px) {
@@ -743,7 +786,16 @@ nav {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 550px) {
+        .table-header {
+        font-size: 1.7em;
+    }
+    .table-text {
+        font-size: 1.4em;
+    }
+}
+
+@media (min-width: 769px) {
     .col-50-tablet {
         width: 50%;
         display: flex;
@@ -765,18 +817,27 @@ nav {
         display: block;
         align-items: center;
     }
-    .member h2 {
+    .member .coiny {
         margin-bottom: 0px;
     }
     .member p {
         margin: 0;
     }
-    .tour h2 {
+    .tour-header p.coiny {
         font-size: 1.5em;
+    }
+    .bookings-header p.coiny {
+        font-size: 1.5em;
+    }
+    .table-header {
+        font-size: 1.2em;
+    }
+    .table-text {
+        font-size: 1em;
     }
 }
 
-@media (min-width: 991px) {
+@media (min-width: 992px) {
     .col-25-desk {
         width: 25%;
         display: flex;
@@ -794,12 +855,24 @@ nav {
     .band-info p {
         font-size: 1.2em;
     }
-    .tour h2 {
+    .tour-header p.coiny {
+        font-size: 2em;
+    }
+    .bookings-header p.coiny {
         font-size: 2em;
     }
 }
 
-@media (min-width: 991px) and (max-width: 1350px) {
+@media (min-width: 1024px) {
+        .table-header {
+        font-size: 1.6em;
+    }
+    .table-text {
+        font-size: 1.3em;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1350px) {
     .albulm-photo {
         width: 200px;
 
