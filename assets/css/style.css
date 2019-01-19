@@ -808,6 +808,9 @@ br{
 .modal {
     top: 33%;
 }
+#BookingsModal{
+    top: 20%;
+}
 
 /* Media Queries */
 
