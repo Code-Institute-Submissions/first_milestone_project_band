@@ -313,9 +313,8 @@ nav {
     object-fit: cover;
     padding-top: 28px;
     right: 0;
-    bottom: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 
 .callout_message {
@@ -356,9 +355,9 @@ nav {
 }
 
 .filler_bottom {
-    position: absolute;
+    position: fixed;
     display: block;
-    bottom: 0;
+    bottom: 0px;
     background-color: #f5051e;
     width: 100vw;
     height: 100px;
@@ -604,9 +603,11 @@ nav {
     height: 80px;
     align-items: center;
 }
-br{
-    display:none;
+
+br {
+    display: none;
 }
+
 .tour-info {
     display: flex;
     flex-wrap: wrap;
@@ -618,6 +619,7 @@ br{
 .tour-header {
     width: 80%;
 }
+
 .tour-text {
     font-weight: 600;
 }
@@ -694,13 +696,16 @@ br{
     margin-bottom: 0;
     font-size: 1.2em;
 }
-.bookings-text{
+
+.bookings-text {
     font-weight: 600;
 }
-.band-photo3{
+
+.band-photo3 {
     width: 220px;
-    border-radius:5px;
+    border-radius: 5px;
 }
+
 .bookings {
     width: 80%;
     margin: 0 auto;
@@ -710,14 +715,14 @@ br{
 }
 
 .wedding-quote {
-    margin:5px;
+    margin: 5px;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
 .xmas-quote {
-    margin:5px;
+    margin: 5px;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -760,15 +765,24 @@ br{
 /*footer*/
 
 .footer_container {
-    display: flex;
-    position: absolute;
+    display: block;
+    position: fixed;
     bottom: 0px;
     width: 100vw;
     background-color: #fff;
     padding-top: 10px;
     padding-bottom: 10px;
     align-items: center;
+}
 
+.footer {
+    display: flex;
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
 }
 
 .createdby {
@@ -808,7 +822,8 @@ br{
 .modal {
     top: 33%;
 }
-#BookingsModal{
+
+#BookingsModal {
     top: 20%;
 }
 
@@ -827,8 +842,8 @@ br{
     .table-text {
         font-size: 1em;
     }
-    #news-btn{
-        font-size:2em;
+    #news-btn {
+        font-size: 2em;
     }
 }
 
@@ -855,7 +870,7 @@ br{
         height: 300px;
         width: 400px;
     }
-    
+
 }
 
 @media (min-width: 550px) {
@@ -865,10 +880,6 @@ br{
     .table-text {
         font-size: 1.4em;
     }
-    #news-btn.btn--size-lg{
-        height: 60px;
-    }
-    
 }
 
 @media (min-width: 769px) {
@@ -882,12 +893,22 @@ br{
     .burger-box {
         display: none;
     }
+    .filler_left {
+        display: block;
+    }
 
+    .filler_right {
+        display: block;
+    }
     .callout_message {
         width: auto;
     }
     .banner-text {
         font-size: 2em;
+    }
+
+    #news-btn.btn--size-lg {
+        height: 60px;
     }
     .band-header {
         display: block;
@@ -899,9 +920,9 @@ br{
     .member p {
         margin: 0;
     }
-    br{
-    display:block;
-}
+    br {
+        display: block;
+    }
     .tour-header p.coiny {
         font-size: 1.5em;
     }
@@ -915,11 +936,8 @@ br{
     .table-text {
         font-size: 1em;
     }
-    .tour-btn{
+    .tour-btn {
         transform: translateY(10px);
-}
-
-
     }
 }
 
@@ -928,13 +946,7 @@ br{
         width: 25%;
         display: flex;
     }
-    .filler_left {
-        display: block;
-    }
 
-    .filler_right {
-        display: block;
-    }
     .banner-text {
         font-size: 3em;
     }
@@ -944,9 +956,6 @@ br{
     .tour-header p.coiny {
         font-size: 2em;
     }
-    /*.bookings {
-    transform: translateY(-40px);
-}*/
     .bookings-header p.coiny {
         font-size: 2em;
     }
@@ -959,9 +968,9 @@ br{
     .table-text {
         font-size: 1.3em;
     }
-     .tour-btn{
+    .tour-btn {
         transform: translateY(0px);
-}
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1350px) {
