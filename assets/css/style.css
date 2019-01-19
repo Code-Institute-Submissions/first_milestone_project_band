@@ -695,6 +695,10 @@ nav {
 .bookings-text{
     font-weight: 600;
 }
+.band-photo3{
+    width: 220px;
+    border-radius:5px;
+}
 .bookings {
     width: 80%;
     margin: 0 auto;
@@ -733,6 +737,21 @@ nav {
     width: 100px;
     border-radius: 50%;
 }
+
+.book-btn:hover {
+    background-color: #f9fa0296;
+    color: #fff;
+}
+
+.book-btn a {
+    text-decoration: none;
+}
+
+.book-btn a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
 
 /*Gigs End*/
 
@@ -870,9 +889,6 @@ nav {
     .tour-header p.coiny {
         font-size: 1.5em;
     }
-    .bookings {
-    transform: translateY(-85px);
-}
 
     .bookings-header p.coiny {
         font-size: 1.5em;
@@ -882,6 +898,12 @@ nav {
     }
     .table-text {
         font-size: 1em;
+    }
+    .tour-btn{
+        transform: translateY(10px);
+}
+
+
     }
 }
 
@@ -906,9 +928,9 @@ nav {
     .tour-header p.coiny {
         font-size: 2em;
     }
-    .bookings {
-    transform: translateY(-130px);
-}
+    /*.bookings {
+    transform: translateY(-40px);
+}*/
     .bookings-header p.coiny {
         font-size: 2em;
     }
@@ -921,8 +943,8 @@ nav {
     .table-text {
         font-size: 1.3em;
     }
-      .bookings {
-    transform: translateY(-175px);
+     .tour-btn{
+        transform: translateY(0px);
 }
 }
 
