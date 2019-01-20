@@ -220,10 +220,9 @@ nav {
 
 .hamburger {
     position: relative;
-    display: block;
-    transform: translateY(-15%);
+    display: flex;
+    flex-direction: column;
     width: 50px;
-    height: 50px;
     line-height: .1em;
     padding: .4em .4em;
     cursor: pointer;
@@ -273,12 +272,9 @@ nav {
     cursor: pointer;
 }
 
-.hamburger hr {
-    color: #ddd;
-    height: .2em;
-    border: 0;
-    background: #f5051e;
-    margin-top: 0.5em;
+.hamburger span {
+    color:#f5051e;
+    border-bottom: 0.2em solid #f5051e;
     margin-bottom: 0.5em;
 }
 
