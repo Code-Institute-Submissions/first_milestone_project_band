@@ -13,7 +13,7 @@ body {
 .main-container {
     display: flex;
     position: absolute;
-    overflow:scroll;
+    overflow: scroll;
     top: 0;
     left: 0;
     width: 100vw;
@@ -273,7 +273,7 @@ nav {
 }
 
 .hamburger span {
-    color:#f5051e;
+    color: #f5051e;
     border-bottom: 0.2em solid #f5051e;
     margin-bottom: 0.5em;
 }
@@ -801,10 +801,19 @@ br {
 }
 
 .copyright {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     margin: 0 auto;
     text-align: center;
     font-family: 'Fugaz One', sans-serif;
     font-size: smaller;
+}
+
+.CSS-val {
+    border: 0;
+    width: 28px;
+    height: 10px;
 }
 
 /*footer end*/
@@ -846,6 +855,10 @@ br {
     .table-text {
         font-size: 1.1em;
     }
+    .CSS-val {
+        width: 42px;
+        height: 15px;
+    }
 }
 
 @media (min-width: 457px) {
@@ -855,9 +868,10 @@ br {
     .social {
         font-size: 30px;
     }
-    .copyright {
+    .copyright p{
         font-size: 1em;
     }
+    
     .band-video1 {
         height: 300px;
         width: 400px;
@@ -867,8 +881,8 @@ br {
 
 @media (min-width: 550px) {
     .band-photo2 {
-    height: 300px;
-}
+        height: 300px;
+    }
     .table-header {
         font-size: 1.7em;
     }
@@ -934,6 +948,10 @@ br {
     .tour-btn {
         transform: translateY(10px);
     }
+    .CSS-val {
+        width: 68px;
+        height: 24px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -954,15 +972,19 @@ br {
     .bookings-header p.coiny {
         font-size: 2em;
     }
-        .footer_container {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+    .footer_container {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
-.footer {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+    .footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .CSS-val {
+        width: 88px;
+        height: 31px;
+    }
 }
 
 @media (min-width: 1024px) {
