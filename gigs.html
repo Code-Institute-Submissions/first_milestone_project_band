@@ -117,7 +117,7 @@
 									<td>Available</td>
 								</tr>
 							</table>
-							<button class="tour-btn btn--size-lg button-color-white font-20"><a class="red_text coiny" href="https://www.ticketmaster.co.uk" target="_blank">BUY NOW!</a></button>
+							<button class="tour-btn btn--size-lg button-color-white font-20 red_text coiny"  onclick="window.open('https://www.ticketmaster.co.uk', '_blank')">BUY NOW!</button>
 						</div>
 					</div>
 				</div>
@@ -126,30 +126,30 @@
 						<div class="bookings-header">
 							<p class="coiny">Bookings</p>
 							<p class="bookings-text">The Monkees are available to hire for any event that you have planned, such as weddings and Xmas Parties.</p>
-							<image src="../assets/images-video-music/images/monkees.jpg" class="band-photo3" />
+							<img src="../assets/images-video-music/images/monkees.jpg" class="band-photo3" alt="The Monkees playing Live."/>
 						</div>
 						<div class="bookings">
 							<div>
 								<div class="wedding-quote">
 									<div>
-										<image class="couple" src="../assets/images-video-music/images/60scouple.jpg" />
+										<img class="couple" src="../assets/images-video-music/images/60scouple.jpg" alt="John and Jane Doe"/>
 									</div>
 									<div>
-										<p>The band were fantastic at our reception and made our Wedding Day even more special.
-											<footer>-John and Jane Doe from<cite>Wolverhampton</cite></footer>
-										</p>
+										<p>The band were fantastic at our reception and made our Wedding Day even more special.</p>
+											<p>-John and Jane Doe from<cite>Wolverhampton</cite></p>
+										
 									</div>
 								</div>
 							</div>
 							<div>
 								<div class="xmas-quote">
 									<div class="picture-frame">
-										<image class="girl" src="../assets/images-video-music/images/girl.png" />
+										<img class="girl" src="../assets/images-video-music/images/girl.png" alt="Emily Smith"/>
 									</div>
 									<div>
-										<p>I booked the band and was blown away by them. 10/10.
-											<footer>-Emily Smith from <cite>Anonymous Media Ltd</cite></footer>
-										</p>
+										<p>I booked the band and was blown away by them. 10/10.</p>
+											<p>-Emily Smith from <cite>Anonymous Media Ltd</cite></p>
+										
 									</div>
 								</div>
 							</div>
@@ -161,7 +161,6 @@
 				</div>
 			</div>
 		</div>
-	</div>
 	</div>
 	<!--Main/-->
 
@@ -198,7 +197,7 @@
 					<form>
 						<div class="form-group">
 							<label for="name">Name</label>
-							<input type="name" class="form-control" id="name" placeholder="Name">
+							<input type="text" class="form-control" id="name" placeholder="Name">
 						</div>
 						<div class="form-group">
 							<label for="email">Email address</label>
@@ -206,17 +205,17 @@
 						</div>
 						<div class="form-group">
 							<label for="location">Location</label>
-							<input type="name" class="form-control" id="location" placeholder="Location">
+							<input type="text" class="form-control" id="location" placeholder="Location">
 						</div>
 						<div class="form-group">
 							<label for="message">Message</label>
-							<input type="comment" class="form-control" id="Message" placeholder="Enter message...">
+							<input type="text" class="form-control" id="message" placeholder="Enter message...">
 						</div>
+						</form>
 				</div>
 				<div class="center_text">
 					<button type="submit" class="button-color-red btn--size-lg lg-text coiny white_text">Submit</button>
 				</div>
-				</form>
 			</div>
 		</div>
 	</div>
