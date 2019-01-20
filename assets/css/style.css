@@ -517,7 +517,6 @@ nav {
     margin: 70px auto 10px auto;
     display: flex;
     flex-wrap: wrap;
-    overflow: scroll;
     align-items: center;
     width: inherit;
 }
@@ -540,7 +539,6 @@ nav {
     margin: 0px auto 10px auto;
     display: flex;
     flex-wrap: wrap;
-    overflow: scroll;
     align-items: center;
 }
 
