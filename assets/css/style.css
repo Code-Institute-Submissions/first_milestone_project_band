@@ -460,7 +460,6 @@ nav {
 /*Music*/
 
 .music-section {
-    overflow: scroll;
     width: inherit;
 }
 
@@ -479,7 +478,6 @@ nav {
     margin: 100px auto 10px auto;
     display: flex;
     flex-wrap: wrap;
-    overflow: scroll;
     align-items: center;
 }
 
