@@ -583,7 +583,6 @@ nav {
     margin: 70px auto 10px auto;
     flex-wrap: wrap;
     width: inherit;
-    overflow: scroll;
 }
 
 .gig-tour-section {
