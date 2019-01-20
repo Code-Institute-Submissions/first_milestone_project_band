@@ -471,7 +471,7 @@ nav {
 
 .band-photo2 {
     border-radius: 40%;
-    height: 300px;
+    height: 170px;
 }
 
 .song-section {
@@ -873,6 +873,9 @@ br {
 }
 
 @media (min-width: 550px) {
+    .band-photo2 {
+    height: 300px;
+}
     .table-header {
         font-size: 1.7em;
     }
