@@ -108,11 +108,11 @@ body {
 }
 
 .coiny {
-    font-family: 'Coiny', cursive;
+    font-family: 'Coiny', sans-serif;
 }
 
 .fugaz {
-    font-family: 'Fugaz One', cursive;
+    font-family: 'Fugaz One', sans-serif;
 }
 
 .white_text {
@@ -192,7 +192,7 @@ nav {
     padding: 5px;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 'Coiny', cursive;
+    font-family: 'Coiny', sans-serif;
 }
 
 /*Burger End*/
@@ -244,7 +244,7 @@ nav {
     font-size: smaller;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 'Coiny', cursive;
+    font-family: 'Coiny', sans-serif;
 }
 
 .burger-li-last a {
@@ -253,7 +253,7 @@ nav {
     font-size: smaller;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 'Coiny', cursive;
+    font-family: 'Coiny', sans-serif;
 }
 
 .burger-li a:hover {
@@ -325,7 +325,7 @@ nav {
     color: #f5051e;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Coiny', cursive;
+    font-family: 'Coiny', sans-serif;
 }
 
 .filler_left {
@@ -784,7 +784,7 @@ br {
 .createdby {
     margin: 0 auto;
     text-align: center;
-    font-family: 'Fugaz One', cursive;
+    font-family: 'Fugaz One', sans-serif;
     font-size: smaller;
 }
 
@@ -807,7 +807,7 @@ br {
 .copyright {
     margin: 0 auto;
     text-align: center;
-    font-family: 'Fugaz One', cursive;
+    font-family: 'Fugaz One', sans-serif;
     font-size: smaller;
 }
 
