@@ -381,11 +381,12 @@ nav {
 .band-header {
     position: relative;
     top: 70px;
+    margin: 0 auto 10px auto;
 }
 
 .band-info {
     position: relative;
-    top: 50px;
+    top: 70px;
     margin: 0 auto;
     display: flex;
     height: auto;
@@ -408,6 +409,7 @@ nav {
     padding-top: 40px;
     padding-bottom: 40px;
     position: relative;
+    top: 10px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -420,7 +422,7 @@ nav {
 }
 
 .member h2 {
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 .member-photo-md {
@@ -868,10 +870,10 @@ br {
     .social {
         font-size: 30px;
     }
-    .copyright p{
+    .copyright p {
         font-size: 1em;
     }
-    
+
     .band-video1 {
         height: 300px;
         width: 400px;
