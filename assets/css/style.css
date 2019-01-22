@@ -200,7 +200,9 @@ nav {
     text-transform: uppercase;
     font-family: 'Coiny', sans-serif;
 }
-
+#selected {
+    text-decoration: underline;
+}
 /*Burger End*/
 
 .burger-box {
