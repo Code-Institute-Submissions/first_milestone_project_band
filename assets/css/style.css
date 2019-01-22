@@ -369,7 +369,7 @@ nav {
 /* Band Main */
 
 .bg-image1 {
-    background: url(/assets/images-video-music/images/spiral_bg_red.jpg) center / cover no-repeat;
+    background: url(../images-video-music/images/spiral_bg_red.jpg) center / cover no-repeat;
 }
 
 .band-section {
