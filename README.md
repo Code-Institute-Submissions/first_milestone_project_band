@@ -170,3 +170,4 @@ I have to acknowledge the following people for assistance with code snippets and
 * Button element to act like a link https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link
 * Button Form Target https://www.w3schools.com/tags/att_button_formtarget.asp
 * I gained useful insight into Elements and attributes from https://www.w3schools.com 
+* Ensuring video autoplayed on Iphone(IoS) https://stackoverflow.com/questions/43570460/html5-video-autoplay-on-iphone
