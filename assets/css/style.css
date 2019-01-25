@@ -19,7 +19,15 @@ body {
     width: 100vw;
     height: 95%;
 }
-
+.media-main-container{
+    position: absolute;
+    overflow: scroll;
+    top: 70px;
+    left: 0;
+    width: 100vw;
+    height: 95%;
+}
+}
 .column-100 {
     position: relative;
     width: 100%;
