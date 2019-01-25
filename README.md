@@ -55,47 +55,113 @@ The features allow all of the User Stories to be fulfilled and information colle
 ***
 ## Technologies Used ##
  For this project the Technologies used included;
- * Cloud9 IDE for development
+ * Cloud9 IDE for development.
  * HTML5
  * CSS3 using Flex Box.
  * Bootstrap for Modal Pop Up only.
  * Javascript and Jquery for the Modal Pop Up only.
- * Markdown for README.md file
+ * Fontawesome for Social Media Glyphicons.
+ * Google Fonts for Font styles.
+ * Markdown for README.md file.
  * BASH
  * Ubuntu
  * GIT
  * GITHUB
- * Google Chrome Developer Tools
- * Firefox Developer Tools
- * Microsoft Edge Developer Tools
+ * Google Chrome Developer Tools.
+ * Firefox Developer Tools.
+ * Microsoft Edge Developer Tools.
  * Iphone for testing on real IoS system as I am on Windows.
+ * Slack for feedback.
+ * [TinyPNG](https://tinypng.com/) for compressing images.
  
 ***
 ## Testing ##  
 
-I tested my code, using various platforms;
+I tested my code, using various platforms Google Chrome, FireFox and Microsoft Edge developer tools;
 
-1. Google Chrome developer tools, using the _responsive design mode_ to view over multiple screen sizes for UX design set out.
-   1. I also tested the compatibility of the site live on Iphone, Sony Xperia(Android) tablet as well as laptop and monitor sizes.
-   2. 
-2.The Developer Tools did not reflect the real world experience on testing, so adjustments had to be made for the real world experience on devices.
-
+* Google Chrome developer tools used to develop the site, using the _responsive design mode_ to view over multiple screen sizes for UX design requirements.
+   * I used the following responsive screen sizes in the developer tool:
+     * Galaxy S5
+     * PIXEL 2
+     * PIXEL 2XL
+     * Iphone 5/SE
+     * Iphone 6/7/8
+     * Iphone 6/7/8 Plus
+     * Iphone X
+     * Ipad
+     * Ipad Pro
+* I also tested the compatibility of the site live (real world) on:
+   * Galaxy A5
+   * Iphone 5 and 8
+   * Sony Xperia(Android) tablet 
+   * MSI laptop 15.5" screen 
+   * Phiilips HD Desktop 21" monitor
+     
+   
+* The Developer Tools did not reflect the real world experience on testing, so adjustments had to be made for the real world experience on devices.
+   * With Microsoft Edge the #Color used for the styling of the News button didnt render correctly so converted it to an rgba value.
+   * With Firefox it was inputting some text at top of media and music page to inform user to double-click to play/pause as on chrome is just one click.
+   * With Iphone 5 (real world) the height was required as an attribute so full height of audio controls could be seen.
+   * Iphone 8, Galaxy A5 and sony Xperia Tablet, all had to have additional margins or paddings input for viewport(real world)
  
+I went through the site and clicked on each feature, Logo(link), Glyphicon Links, Buttons and audio/video controls to ensure
+that they worked. The Modal forms that have come up I have tested to ensure that they only work if the required information is input and they close upon 
+submition.  
+I used Slack to post my GITHUB link and get feedback from the forum and individuals I had collaborated or spoken with previously.  
+I proof read the pages with my wife, to avoid grammatical errors and spelling mistakes.  
+I took on board some of the comments from testing such as identifying on Navmenu or BurgerMenu as to your current location, Burger Menu 
+being vertically aligned as opposed to horizontal.  
+  
+I utilised [HTML Validator](https://validator.w3.org/) and [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+to ensure that my code was correct and that their were no errors.
 
- 
 ***
 ## Deployment ##
 
-
-*
-*
+The website was deployed using Cloud9 IDE and using Ubuntu and BASH in order to create traceable development versions upon uploading them to GITHUB.  
+The GITHUB repository was deployed on GITHUB Pages, this is the deployed site, [The Monkees](https://michael-leese.github.io/first_milestone_project_band/index.html).
 
 ***
 ## Credits ##
 
 ### Content ###
+Information regarding the Band and the Individual Members was taken from [Wikipedia](https://en.wikipedia.org/wiki/The_Monkees).  
+  
+Code Snippets:  
+[Bootstrap](https://getbootstrap.com/docs/3.3/javascript/#modals) was used to to provide the _Modal_ forms, along with [Jquery](https://code.jquery.com/).  
+All responsivness was carried out using _Flex Box_ in CSS.  
+All code snippets have been restyled or worked to suit The Monkees site needs.  
+Help from following places:  
+* For elements and attributes https://www.w3schools.com.   
+* Checkbox and Label, Burger Menu https://codepen.io/elgreg/pen/rGgfF restyled and coded to suit my design.
+* Getting button to open link in new page https://stackoverflow.com/questions/34082002/html-button-opening-link-in-new-tab.
 
-### Media ###
+
+### Media ###  
+
+The media was supplied via a [GITHUB Repository](https://github.com/Code-Institute-Org/project-assets) as well as through research on the web.  
+Images uploaded locally were ran through https://tinypng.com/ so as to compress them before uploading to the IDE.  
+The Monkees additional image/video sources:  
+* Logo Image
+  * https://www.bandlogojukebox.com/blog/2017/12/4/m1-the-monkees 
+* 60’s Girl Image
+  * https://archive.org 
+* 60s Couple Image
+  * https://www.flickr.com 
+* Background Image Wallpaper
+  * https://www.vectorstock.com/royalty-free-vector/red-spiral-design-background-vector-16316912  
+* Additional videos
+  * www.tubeoid.co (The Monkees Behind the Scenes(2000))
+    * video was cropped and saved using www.hesetube.com
+  * https://archive.org/ (Im a Believer video)
+
+Fonts were taken from [Google Fonts](https://fonts.google.com/) in the 
+form of [Coiny](https://fonts.google.com/specimen/Coiny) and [Fugaz One](https://fonts.google.com/specimen/Fugaz+One), the default language was Sans-Serif.
+
 
 ### Acknoledgements ###
 
+I have to acknowledge the following people for assistance with code snippets and functionality:
+* Button element to act like a link https://stackoverflow.com/questions/2906582/how-to-create-an-html-button-that-acts-like-a-link
+* Button Form Target https://www.w3schools.com/tags/att_button_formtarget.asp
+* I gained useful insight into Elements and attributes from https://www.w3schools.com 
