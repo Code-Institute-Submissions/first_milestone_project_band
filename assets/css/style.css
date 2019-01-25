@@ -515,7 +515,9 @@ nav {
 }
 
 .song p audio {
+    margin-top:20px;
     padding-top: 20px;
+    width: 100%;
 }
 
 /*music end*/
