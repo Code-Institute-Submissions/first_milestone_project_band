@@ -487,7 +487,9 @@ nav {
     flex-wrap: wrap;
     align-items: center;
 }
-
+.song{
+    width: 233px;
+}
 .song h2 {
     margin-bottom: 0;
 }
