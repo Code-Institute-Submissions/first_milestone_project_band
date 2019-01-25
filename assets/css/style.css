@@ -4,7 +4,7 @@ body {
     padding: 0;
 }
 
-/* Styles */
+/* ----------Styles------------ */
 
 .flex {
     display: flex;
@@ -59,7 +59,7 @@ body {
     width: 100%;
 }
 
-/* buttons */
+/*------------------ buttons ---------------------*/
 
 .btn--size-lg {
     width: 150px;
@@ -90,7 +90,7 @@ body {
 }
 
 .button-color-red-opaque {
-    background-color: #fa040266;
+    background-color: rgba(250,4,2,0.4);
 }
 
 .button-color-white {
