@@ -105,7 +105,7 @@ body {
     background-color: #fff;
 }
 
-/* Text and Colors */
+/* ---------------Text and Colors------------------------ */
 
 .center_text {
     text-align: center;
@@ -152,7 +152,7 @@ body {
     margin: 5px auto 0 auto;
 }
 
-/* Navbar*/
+/* ------------------------Navbar-------------------*/
 
 nav {
     width: 100%;
@@ -215,7 +215,7 @@ nav {
     text-decoration: underline;
 }
 
-/*Burger End*/
+/*-----------------Burger--------------------*/
 
 .burger-box {
     display: block;
@@ -309,11 +309,11 @@ nav {
     transform: translateY(-7px);
 }
 
-/*Burger End*/
+/*-----------------Burger End------------------*/
 
-/* navbar end */
+/*-------------------- navbar end------------------ */
 
-/* Home Callout */
+/*-------------------- Home Callout----------------- */
 
 .callout {
     display: flex;
@@ -381,9 +381,9 @@ nav {
     text-decoration: none;
 }
 
-/* Home Callout End */
+/* ---------------Home Callout End--------------------*/
 
-/* Band Main */
+/* ---------------Band Main----------------------- */
 
 .bg-image1 {
     background: url(../images-video-music/images/spiral_bg_red.jpg) center / cover no-repeat;
@@ -470,9 +470,9 @@ nav {
     border-radius: 50%;
 }
 
-/*BandMain End
+/*-----------------------BandMain End-------------*/
 
-/*Music*/
+/*----------------Music---------------------*/
 
 .music-section {
     width: inherit;
@@ -531,9 +531,9 @@ nav {
 
 }
 
-/*music end*/
+/*--------------------------music end-----------------------*/
 
-/* Media */
+/* -------------------------Media ---------------------------*/
 
 .media-section {
     margin: 70px auto 10px auto;
@@ -597,9 +597,9 @@ nav {
     width: 100%;
 }
 
-/* Media End */
+/* ---------------------Media End -----------------------*/
 
-/*Gigs*/
+/*-----------------------Gigs----------------------------*/
 
 .gig-section {
     margin: 70px auto 10px auto;
@@ -778,9 +778,9 @@ br {
 }
 
 
-/*Gigs End*/
+/*----------------------Gigs End--------------------------*/
 
-/*footer*/
+/*--------------------------footer-------------------------*/
 
 .footer_container {
     display: block;
@@ -842,9 +842,9 @@ br {
     height: 10px;
 }
 
-/*footer end*/
+/*----------------------footer end-------------------------*/
 
-/* Modal */
+/*----------------------------- Modal------------------------- */
 
 .modal {
     top: 33%;
@@ -853,8 +853,8 @@ br {
 #BookingsModal {
     top: 10%;
 }
-
-/* Media Queries */
+/*----------------------------- Modal end------------------------- */
+/* ------------------------Media Queries --------------------------*/
 
 @media (min-width: 375px) {
     .table-header {
@@ -1016,3 +1016,4 @@ br {
 
     }
 }
+/*----------------------------- Media query end------------------------- */
