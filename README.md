@@ -171,3 +171,4 @@ I have to acknowledge the following people for assistance with code snippets and
 * Button Form Target https://www.w3schools.com/tags/att_button_formtarget.asp
 * I gained useful insight into Elements and attributes from https://www.w3schools.com 
 * Ensuring video autoplayed on Iphone(IoS) https://stackoverflow.com/questions/43570460/html5-video-autoplay-on-iphone
+* Change _Padding_ to zero on modal buttons as IoS default is 1em https://stackoverflow.com/questions/44941161/safari-on-ios-cant-render-button-text-center-aligned
