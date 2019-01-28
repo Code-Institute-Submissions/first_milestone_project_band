@@ -19,7 +19,8 @@ body {
     width: 100vw;
     height: 95%;
 }
-.media-main-container{
+
+.media-main-container {
     position: absolute;
     overflow: scroll;
     top: 70px;
@@ -27,7 +28,9 @@ body {
     width: 100vw;
     height: 95%;
 }
+
 }
+
 .column-100 {
     position: relative;
     width: 100%;
@@ -306,6 +309,7 @@ nav {
 .burger-menu {
     position: absolute;
     right: -30px;
+    top: 66px;
     padding-bottom: 5px;
     margin: 0 auto;
     display: none;
@@ -857,7 +861,9 @@ br {
 #BookingsModal {
     top: 10%;
 }
+
 /*----------------------------- Modal end------------------------- */
+
 /* ------------------------Media Queries --------------------------*/
 
 @media (min-width: 375px) {
@@ -1020,4 +1026,5 @@ br {
 
     }
 }
+
 /*----------------------------- Media query end------------------------- */
